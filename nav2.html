@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>
+            NAV
+        </title>
+        <style>
+         .input-grp{
+            background-color: antiquewhite;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+         } 
+         .input-grp img{
+            position: absolute;
+            width: 25px;
+            top: 50%;
+            left: 360px;
+            transform: translateY(-50%);
+            cursor: pointer;
+         }  
+         .in{
+            width: 400px;
+            height: 40px;
+            border: 2px solid black;
+            border-radius: 20px;
+         }
+         .login{
+            margin-left: 700px;
+            width: 80px;
+            text-align: right;  
+            cursor: pointer;
+         }
+         .sel{
+            margin-right: 10px;
+            cursor: pointer;
+         }
+         
+        .reg{
+            cursor: pointer;
+        }
+        h1{
+            font-size: 150px;
+            background: url(sun.jpg);
+            background-clip: text;
+            color: transparent;
+            text-align: center;
+            margin-top: 170px;
+            animation: move 1s infinite;
+        }
+        @keyframes move {
+           100%{
+            background-position-x: 500px;
+           } 
+        }
+        body{
+            background: url(lap.jpg);
+            background-size: 1230px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="input-grp">
+            <input type="search" placeholder="search" class="in">
+            <img src="search.png"/>
+            <form action="log.html"><input type="submit" value="Logout" class="login">
+            <img src="log.png" class="log" style="left: 1114px;width: 20px;"/>
+            </form>
+            <form action="reg.html"><input type="submit" value="Register" class="reg"></form>
+            <select class="sel">
+                <option></option>
+                <option>Home</option>
+                <option>Customer</option>
+                <option >Help</option>
+                <option>Support</option>
+            </select>
+        </div>
+        <h1>Sanjay</h1>
+    </body>
+</html>
