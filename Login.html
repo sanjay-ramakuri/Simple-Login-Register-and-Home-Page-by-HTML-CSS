@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            LOGIN
+        </title>
+        <style>
+            .container {
+                border: 2px black solid;
+                width: 300px;
+                height: 385px;
+                margin-top: 150px;
+                margin-left: 500px;
+                background: url(artist.jpg);
+                color: white;
+            }
+            .container h1{
+                border: 2px solid black;
+                width: 180px;
+                border-radius: 20px;
+                text-align: center;
+                margin-left: 60px;
+                background: url(sky.jpg);
+            }
+            .container img{
+                width: 20px;
+                margin-left: -27px;
+                top: 40%;
+                transform: translateY(30%);
+                cursor: pointer;
+            }
+            .container label{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 10px;
+            }
+            .container input{
+                  margin-top: 5px; 
+                  margin-left: 70px;  
+            }
+            #in{
+                margin-left: 130px;
+                margin-top: 20px;
+                cursor: pointer;
+                background-color: blue;
+                color: white;
+            }
+            .container ins{
+                margin-left: 90px;
+                cursor: pointer;
+                
+            }
+            body{
+                background: url(bggg.jpg);
+                background-size: 1370px;
+            }
+            p:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            p{
+                text-align: center;
+                margin-top: -6px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <div>
+            <h1>Login Here</h1>
+            <img src="usr.png" style="width: 50px; margin-left: 130px;cursor: not-allowed;"/>
+        </div><br/>
+        <form action="nav2.html">
+        <label>Email Id</label>
+        <input type="email" placeholder="Enter Your email id"><br/>
+        <label>Password</label>
+        <input type="password" placeholder="Password">
+        <img src="show.png">
+        <input type="submit" value="Login" id="in"><br><br>
+       </form>
+       <form action="reg.html"><input type="submit" value="Register Here" style="margin-left: 100px;margin-top: -10px;background-color: blue;color: white;cursor: pointer;"></form><br>
+        <p>Forgotten Password?</p>
+    </div>
+    </body>
+</html>
