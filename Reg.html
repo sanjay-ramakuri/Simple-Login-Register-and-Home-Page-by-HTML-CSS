@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>REGISTER</title>
+        <style>
+            .container{
+                border: 2px black solid;
+                width: 300px;
+                height: 400px;
+                margin-left: 500px;
+                margin-top: 125px;
+                background: url(drag.png);
+                color: white;
+            }
+            .container h1{
+                text-align: center; 
+                border: 2px solid black;
+                 border-radius: 15px;
+                 width: 230px; 
+                 margin-left:30px ;
+                 background: url(cool.jpg);
+                 color: black;
+            }
+            .container label{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 15px;
+                
+            }
+            .container input{
+                margin-left: 65px;
+                margin-top: 5px;
+            }
+            .container img{
+                width: 20px;
+                margin-left: -27px;
+                top: 90%;
+                transform: translateY(30%);
+                cursor: pointer;
+            }
+           body{
+              background: url(trees.jpg);
+              background-size: 1120px;
+           }
+        </style>
+    </head>
+    <body>
+         <div class="container">
+             <div>
+            <h1 >Register Here</h1>
+            </div>
+            <form action="log.html">
+            <label><strong>UserName</strong></label>
+            <input type="text" placeholder="xyz"><br/>
+            <label><strong>Email Id</strong></label>
+            <input type="email" placeholder="abc@gmail.com"><br/>
+            <label><strong>Password</strong></label>
+            <input type="password" placeholder="password">
+            <img src="show.png"><br/>
+            <label><strong>Confirm Password</strong></label>
+            <input type="password" placeholder="Confirm password">
+            <img src="show.png"><br/><br>
+            <input type="checkbox" style="margin-left: 35px; cursor: pointer;">
+            <label style="margin-left: 20px;margin-top: -20px;">I agree to terms and conditions</label>
+            <input type="submit" value="Submit" style="background-color: blue;color: white;margin-top: 25px; margin-left: 120px;cursor: pointer;">
+           </form>
+         </div>
+    </body>
+</html>
